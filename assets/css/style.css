@@ -33,6 +33,9 @@ body{
     color:var(--orange)
 }
 
+.intro-left-side a.book{
+    background-color: #222;
+}
 
 /* services section */
 

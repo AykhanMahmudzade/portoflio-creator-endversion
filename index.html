@@ -20,29 +20,67 @@
     <!-- CSS link -->
     <link rel="stylesheet" href="/assets/css/style.css">
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/images/p.svg" type="image/x-icon">
     <!-- Title -->
     <title>Portfolio Creator</title>
+
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
 </head>
 
 <body>
 
     <!-- !Header start -->
 
-    <header class="container basliq d-flex justify-content-between align-items-center">
+    <header class="container basliq d-flex justify-content-between align-items-center pt-3">
         <a href="/">
             <img src="./assets/images/logoport.svg" alt="">
         </a>
 
-        <i class="fa-solid fa-bars"></i>
+        <nav class="navbar navbar-expand-lg  nav-links d-flex gap-4">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="book.html">Book a call <img
+                                    src="./assets/images/arrow.svg" alt=""></a>
+                        </li>
 
-        <nav class="nav-links d-flex gap-4">
-            <a href="" class="nav-link">About</a>
-            <a href="" class="nav-link">Services</a>
-            <a href="" class="nav-link">Projects</a>
-            <a href="" class="nav-link">Blog</a>
-            <a href="" class="nav-link">Book a call <img src="./assets/images/arrow.svg" alt=""></a>
+
+                    </ul>
+
+                </div>
+            </div>
         </nav>
+
+
+
+
 
     </header>
 
@@ -74,6 +112,8 @@
 
 
         </div>
+
+
     </section>
 
     <!-- todo Introduction end-->
@@ -141,7 +181,7 @@
 
 
 
-            <div class="col-12 col-md-6 col-lg-4"data-aos="fade-down" >
+            <div class="col-12 col-md-6 col-lg-4" data-aos="fade-down">
                 <div class="card py-3 px-2 border-0">
                     <img src="./assets/images/services/services-2.svg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -348,25 +388,575 @@
 
 
 
-
-
-
     <!-- todo Project section end -->
 
 
 
 
+    <!-- Blogs section start -->
+
+    <section class="blogs px-5 py-5">
+        <div class="row ">
+            <div class="blogs-left-side  col-12 col-md-6 col-lg-4">
+                <h6 class="blogs2">B L O G S</h6>
+                <h1 class="text-white">Latest Blogs</h1>
+                <a href="#" class="text-white">View all <img src="./assets/images/arrowwhite.svg" alt=""></a>
+            </div>
+
+
+
+            <div class="blogs-right-sidecol-12 col-md-6 col-lg-8">
+
+
+                <div class="blogall">
+
+
+
+                    <div class="blog text-white border-bottom pb-4">
+                        <span class="metadata text-secondary">April 16, 2021 . 6 mins</span>
+                        <h2 class="my-4">Design tips for designers, that cover <br> everything you need</h2>
+                        <a href="#" class="text-white">Read the article <img src="./assets/images/arrowwhite.svg"
+                                alt=""></a>
+                    </div>
+
+
+
+                    <div class="blog text-white border-bottom  pb-4">
+                        <p class="pt-5"> <span class="metadata text-secondary ">April 16, 2021 . 5 mins</span> </p>
+                        <h2 class="my-4">How to build rapport with your web design clients</h2>
+                        <a href="#" class="text-white">Read the article <img src="./assets/images/arrowwhite.svg"
+                                alt=""></a>
+                    </div>
+
+
+
+
+                    <div class="blog text-white border-bottom pb-4">
+                        <p class="pt-5"> <span class="metadata text-secondary">April 16, 2021 . 6 mins</span> </p>
+                        <h2 class="my-4">Top 6 free website mockup tools 2021</h2>
+                        <a href="#" class="text-white">Read the article <img src="./assets/images/arrowwhite.svg"
+                                alt=""></a>
+                    </div>
+
+
+
+
+                    <div class="blog text-white border-bottom pb-4">
+                        <p class="pt-5"> <span class="metadata text-secondary ">April 16, 2021 . 7 mins</span> </p>
+                        <h2 class="my-4">Logo design trends to avoid in 2021</h2>
+                        <a href="#" class="text-white">Read the article <img src="./assets/images/arrowwhite.svg"
+                                alt=""></a>
+                    </div>
+
+
+
+
+                    <div class="blog text-white border-bottom pb-4">
+                        <p class="pt-5"> <span class="metadata text-secondary">April 16, 2021 . 7 mins</span> </p>
+                        <h2 class="my-4">22 best UI design tools</h2>
+                        <a href="#" class="text-white">Read the article <img src="./assets/images/arrowwhite.svg"
+                                alt=""></a>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Blogs section end -->
 
 
 
 
 
+    <!-- Product Designer start -->
+
+    <section class="product-designer pt-5">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="proddesign-left-side  col-12 col-md-6 col-lg-4">
+
+                    <h6 class="pd">P R O D U C T &nbsp; D E S I G N E R</h4>
+                        <h1 class="fw-bold">That's me!</h3>
+
+
+
+                </div>
+
+
+                <div class="proddesign-right-side col-12 col-md-6 col-lg-4">
+
+                    <p class="otp ">Over the past 12 years, I've worked with a diverse range of clients, from startups
+                        to Fortune 500 companies. I love crafting interfaces that delight users and help businesses
+                        grow.</p>
+                </div>
+
+
+
+
+                <img src="/assets/images/projects/product.svg" alt="">
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+
+    <!-- Product Designer end -->
+
+
+
+
+    <!--Eduwork section start  -->
+
+
+    <section class="eduwork">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12 col-md-6">
+                    <div class="education">
+                        <h4 class="pt-5">📚 Education</h4>
+                        <div class="edu-left-side">
+                            <div class="education1 pb-5 pt-5 border-bottom border-secondary">
+                                <h5>Stanford University <a href=""><img class="mx-5"
+                                            src="/assets/images/services/arrow1.svg" alt=""></a></h5>
+                                <p>MSc (Human Computer Interaction) <span class="mx-2">• 2013-2015</span></p>
+                            </div>
+                            <div class="education1 pb-5 pt-5 border-bottom border-secondary">
+                                <h5>MIT Summer School <a href=""><img class="mx-5"
+                                            src="/assets/images/services/arrow1.svg" alt=""></a></h5>
+                                <p>UX Training Bootcamp <span class="mx-5">• 2013-2014</span></p>
+                            </div>
+                            <div class="education1 pb-5 pt-5 border-bottom border-secondary">
+                                <h5>Stanford University <a href=""><img class="mx-5"
+                                            src="/assets/images/services/arrow1.svg" alt=""></a></h5>
+                                <p>BSc in Software Engineering <span class="mx-4">• 2009-2012</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-12 col-md-6">
+                    <div class="education">
+                        <h4 class="pb-5 pt-5">💼 Work Experience</h4>
+                        <div class="edu-right-side">
+                            <div class="education2 pb-5 pt-2 border-bottom border-secondary">
+                                <img src="/assets/images/work/work1.svg" alt="">
+                                <h5>SpaceFleet <a href=""><img class="mx-5" src="/assets/images/services/arrow1.svg"
+                                            alt=""></a></h5>
+                                <p>Senior Product Designer <span class="mx-2">• April 2019 - Current</span></p>
+                            </div>
+                            <div class="education2 pb-5 pt-5 border-bottom border-secondary">
+                                <img src="/assets/images/work/work2.svg" alt="">
+                                <h5>MusicMash <a href=""><img class="mx-5" src="/assets/images/services/arrow1.svg"
+                                            alt=""></a></h5>
+                                <p>Information Architect <span class="mx-2">• April 2016 - May 2017</span></p>
+                            </div>
+                            <div class="education2 pt-5 border-bottom border-secondary">
+                                <img src="/assets/images/work/work3.svg" alt="">
+                                <h5>Kingdom <a href=""><img class="mx-5" src="/assets/images/services/arrow1.svg"
+                                            alt=""></a></h5>
+                                <p>UI Designer <span class="mx-2">• April 2016 - May 2017</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Edurowrk section end  -->
+
+
+
+
+    <!--Testimonials section start -->
+
+
+    <section class="testimonials">
+
+
+        <div class="container">
+
+            <h6 class="test pt-5">T E S T I M O N I A L S </h6>
+            <h1 class="fw-bold str">Word on the street</h1>
+
+
+
+
+            <div class="row">
+
+
+                <div class="intro-left-side col-12 col-md-6 ">
+
+                    <img class="mantest w-100" src="/assets/images/mantest.svg" alt="">
+
+                </div>
+
+
+                <div class="intro-right-side col-12 col-md-6">
+                    <img class="quotes" src="/assets/images/quotes.svg" alt="">
+                    <h2 class="fw-bold jade pt-5">Jade helped us build a software so intuitive that it didn't need a
+                        walkthrough. He solved complex problems with brilliant design.</h2>
+                    <h6 class="fw-bold jf">John Frankin</h6>
+                    <p class="">Founder, Double Bunch</p>
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+    <!--Testimonials section end -->
+
+
+
+
+    <!-- FAQ Section start-->
+
+    <section class="faq">
+
+        <div class="container">
+            <div class="row">
+
+
+
+                <div class="questions">
+
+                    <h6 class="text-center faqq">FAQ</h6>
+                    <h1 class="text-center pt-3 text-white pb-5">Frequently asked questions</h1>
+
+
+
+
+                </div>
+
+
+                <div class="faq-left-side col-12 col-md-6">
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    What type of projects do you take on?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"></div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed  text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    What is your hourly rate?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"></div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed  text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    What time-zone do you work in?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"></div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed  text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    What is the typical timeline for a project?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+                <div class="faq-right-side col-12 col-md-6">
+
+
+
+
+
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    How do you charge for projects ?
+                                </button>
+                            </h2>
+
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"></div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed  text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                    aria-controls="flush-collapseSix">
+                                    What does your design process look like?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"></div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingSeven">
+                                <button class="accordion-button collapsed  text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
+                                    aria-expanded="false" aria-controls="flush-collapseSeven">
+                                    What metrics do you use to measure success?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingEight">
+                                <button class="accordion-button collapsed  text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false"
+                                    aria-controls="flush-collapseEight">
+                                    What if I need help after the project is complete?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseEight" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+                <h1 class="text-white ready">Ready to make something kickass?</h1>
+                <h2 class="lets">Let's get on a call.</h2>
+                
+                
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+
+    <!-- FAQ Section end -->
+
+
+
+
+
+
+<!-- Footer section start -->
+
+<section class="footer pt-5">
+
+<div class="container">
+
+<div class="row">
+
+
+
+<div class="footer-left-side col-12 col-md-6">
+
+
+<img src="/assets/images/services/logowhite.svg" alt="">
+<p class="text-secondary pt-4">4353 Delaware Avenue, San Francisco, USA</p>
+<img src="/assets/images/mail.svg" alt="" >  <a href="mailto:hi@thefolio.com" class="text-white">hi@thefolio.com </a>
+  
+
+
+
+</div>
+
+
+
+
+<div class="footer-right-side col-12 col-md-6">
+
+
+    <div class="footer1 text-decoration-none mx-3" >
+        <ul>
+            <li><a class="text-white" href="about.html">About</a></li>
+            <li class="pt-4"><a class="text-white" href="book.html">Contact</a></li>
+            <li class="pt-4"><a class="text-white" href="">Dribbble</a></li>
+        </ul>
+    </div>
+    
+    <div class="footer2 text-decoration-none mx-5" >
+        <ul>
+            <li><a class="text-white" href="services.html">Services</a></li>
+            <li class="pt-4"><a class="text-white" href="blog.html">Blog</a></li>
+            <li class="pt-4"><a class="text-white" href="">Instagram</a></li>
+        </ul>
+    </div>
+    
+    <div class="footer3 text-decoration-none mx-5">
+        <ul>
+            <li><a class="text-white" href="">Experience</a></li>
+            <li class="pt-4"><a class="text-white" href="projects.html  ">Projects</a></li>
+            <li class="pt-4"><a class="text-white" href="">Twitter</a></li>
+        </ul>
+    </div>
+    
+
+</div>
+
+
+<img class="pt-5" src="/assets/images/footer.svg" alt="">
+
+
+</div>
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+<!-- Footer section end -->
+
+
+
+
+
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 
 
     <!-- JS links -->
 
-  <!-- AOS JS -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -376,7 +966,7 @@
     <script src="./assets/js/script.js"></script>
 
 
-  
+
 
 </body>
 

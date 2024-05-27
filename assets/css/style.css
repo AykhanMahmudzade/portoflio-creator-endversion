@@ -17,9 +17,6 @@ body{
 }
 
 
-.nav-links {
-    display: none !important;
-}
 
 
 
@@ -80,6 +77,129 @@ width: 80%;
 }
 
 
+.blogs{
+    background-color: black;
+    padding-top: 100px;
+}
+
+
+.blogs2{
+    color: #FFA84B;
+}
+
+
+
+
+
+.pd{
+    color: #FF5E69;
+    font-weight: 700;
+    size: 22px;
+}
+
+
+.otp{
+    font-size: 22px;
+    font-weight: 400;
+    color: #666666;
+    
+}
+
+
+.test{
+    color: #4353FF;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.str{
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.jade{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.quotes{
+    padding-top: 100px;
+}
+
+.jf{
+    padding-top: 115px;
+}
+
+
+.mantest{
+    width: 485px;
+    height: 450px;
+}
+
+
+
+
+
+
+.faq{
+    padding-top: 100px;
+    background-color:black;
+}
+
+
+.faqq{
+    color: #FF8A56;
+}
+
+
+
+
+
+.accordion-button{
+    background-color: black;
+}
+
+
+
+.accordion-body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+
+
+.lets{
+    color: #3C46FF;
+font-size: 54px;  
+  font-weight: 700;
+}
+
+.ready{
+    font-size: 54px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+
+.footer{
+    background-color: black;
+}
+
+.footer1 , .footer2 , .footer3{
+    display: inline-block;
+}
+
+
+
+
+
 @media(min-width:768px){
     .nav-links{
         display: flex !important;
@@ -88,6 +208,11 @@ width: 80%;
     .fa-bars{
         display: none;
     }
+
+    
+
+
+    
 
 .intro-left-side{
 
@@ -98,7 +223,20 @@ width: 80%;
     .intro-left-side h1{
         font-size: 40px;
     }
+
+
+
+
+    .footer1 , .footer2 , .footer3{
+        display: inline-block;
+         
+    }
+    
+
+
 }
+
+
 
 
 
